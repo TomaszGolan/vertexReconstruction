@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>My Project: RecoTargetMetrics.h Source File</title>
+<title>Vertex Reconstruction: RecoTargetMetrics.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Vertex Reconstruction
    </div>
   </td>
  </tr>
@@ -39,7 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -103,16 +103,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="namespaceRecoTarget_html_a2bf02e10faf6cf096f9aea2cfac0b7cd"><div class="ttname"><a href="namespaceRecoTarget.html#a2bf02e10faf6cf096f9aea2cfac0b7cd">RecoTarget::metricCosine</a></div><div class="ttdeci">double metricCosine(const double &amp;x, const double &amp;y, const double &amp;w)</div><div class="ttdoc">return -xy multiplied by weight (1.0 by default) </div><div class="ttdef"><b>Definition:</b> RecoTargetMetrics.cxx:30</div></div>
-<div class="ttc" id="namespaceRecoTarget_html_abc8e9f397cbe8966d329d26383578b7e"><div class="ttname"><a href="namespaceRecoTarget.html#abc8e9f397cbe8966d329d26383578b7e">RecoTarget::listOfMetrics</a></div><div class="ttdeci">const char * listOfMetrics[]</div><div class="ttdoc">use for understandable cout&#39;s </div><div class="ttdef"><b>Definition:</b> RecoTargetMetrics.cxx:8</div></div>
-<div class="ttc" id="namespaceRecoTarget_html_ad5bfdff51ebedbd51e1bf91854fa51ad"><div class="ttname"><a href="namespaceRecoTarget.html#ad5bfdff51ebedbd51e1bf91854fa51ad">RecoTarget::nMetrics</a></div><div class="ttdeci">const unsigned int nMetrics</div><div class="ttdoc">number of implemented metrics </div><div class="ttdef"><b>Definition:</b> RecoTargetMetrics.h:14</div></div>
-<div class="ttc" id="namespaceRecoTarget_html_a055eaa81d63031009b98db93bbca6b66"><div class="ttname"><a href="namespaceRecoTarget.html#a055eaa81d63031009b98db93bbca6b66">RecoTarget::metricManhattan</a></div><div class="ttdeci">double metricManhattan(const double &amp;x, const double &amp;y, const double &amp;w)</div><div class="ttdoc">return |x-y| multiplied by weight (1.0 by default) </div><div class="ttdef"><b>Definition:</b> RecoTargetMetrics.cxx:23</div></div>
-<div class="ttc" id="namespaceRecoTarget_html_a25c5a54f0af2c3b04d2fc016c24662f8"><div class="ttname"><a href="namespaceRecoTarget.html#a25c5a54f0af2c3b04d2fc016c24662f8">RecoTarget::Metric</a></div><div class="ttdeci">Metric</div><div class="ttdoc">metrics enumerator </div><div class="ttdef"><b>Definition:</b> RecoTargetMetrics.h:17</div></div>
-<div class="ttc" id="namespaceRecoTarget_html_aac3e3669cc1ec84560b0aebf708cc6a5"><div class="ttname"><a href="namespaceRecoTarget.html#aac3e3669cc1ec84560b0aebf708cc6a5">RecoTarget::metricEuclidean</a></div><div class="ttdeci">double metricEuclidean(const double &amp;x, const double &amp;y, const double &amp;w)</div><div class="ttdoc">return (x-y)^2 multiplied by weight (1.0 by default) </div><div class="ttdef"><b>Definition:</b> RecoTargetMetrics.cxx:16</div></div>
+<div class="ttc" id="namespaceRecoTarget_html_a2bf02e10faf6cf096f9aea2cfac0b7cd"><div class="ttname"><a href="namespaceRecoTarget.html#a2bf02e10faf6cf096f9aea2cfac0b7cd">RecoTarget::metricCosine</a></div><div class="ttdeci">double metricCosine(const double &amp;x, const double &amp;y, const double &amp;w)</div><div class="ttdoc">return -xy multiplied by weight (1.0 by default) </div><div class="ttdef"><b>Definition:</b> <a href="RecoTargetMetrics_8cxx_source.html#l00030">RecoTargetMetrics.cxx:30</a></div></div>
+<div class="ttc" id="namespaceRecoTarget_html_abc8e9f397cbe8966d329d26383578b7e"><div class="ttname"><a href="namespaceRecoTarget.html#abc8e9f397cbe8966d329d26383578b7e">RecoTarget::listOfMetrics</a></div><div class="ttdeci">const char * listOfMetrics[]</div><div class="ttdoc">use for understandable cout&#39;s </div><div class="ttdef"><b>Definition:</b> <a href="RecoTargetMetrics_8cxx_source.html#l00008">RecoTargetMetrics.cxx:8</a></div></div>
+<div class="ttc" id="namespaceRecoTarget_html_ad5bfdff51ebedbd51e1bf91854fa51ad"><div class="ttname"><a href="namespaceRecoTarget.html#ad5bfdff51ebedbd51e1bf91854fa51ad">RecoTarget::nMetrics</a></div><div class="ttdeci">const unsigned int nMetrics</div><div class="ttdoc">number of implemented metrics </div><div class="ttdef"><b>Definition:</b> <a href="RecoTargetMetrics_8h_source.html#l00014">RecoTargetMetrics.h:14</a></div></div>
+<div class="ttc" id="namespaceRecoTarget_html_a055eaa81d63031009b98db93bbca6b66"><div class="ttname"><a href="namespaceRecoTarget.html#a055eaa81d63031009b98db93bbca6b66">RecoTarget::metricManhattan</a></div><div class="ttdeci">double metricManhattan(const double &amp;x, const double &amp;y, const double &amp;w)</div><div class="ttdoc">return |x-y| multiplied by weight (1.0 by default) </div><div class="ttdef"><b>Definition:</b> <a href="RecoTargetMetrics_8cxx_source.html#l00023">RecoTargetMetrics.cxx:23</a></div></div>
+<div class="ttc" id="namespaceRecoTarget_html_a25c5a54f0af2c3b04d2fc016c24662f8"><div class="ttname"><a href="namespaceRecoTarget.html#a25c5a54f0af2c3b04d2fc016c24662f8">RecoTarget::Metric</a></div><div class="ttdeci">Metric</div><div class="ttdoc">metrics enumerator </div><div class="ttdef"><b>Definition:</b> <a href="RecoTargetMetrics_8h_source.html#l00017">RecoTargetMetrics.h:17</a></div></div>
+<div class="ttc" id="namespaceRecoTarget_html_aac3e3669cc1ec84560b0aebf708cc6a5"><div class="ttname"><a href="namespaceRecoTarget.html#aac3e3669cc1ec84560b0aebf708cc6a5">RecoTarget::metricEuclidean</a></div><div class="ttdeci">double metricEuclidean(const double &amp;x, const double &amp;y, const double &amp;w)</div><div class="ttdoc">return (x-y)^2 multiplied by weight (1.0 by default) </div><div class="ttdef"><b>Definition:</b> <a href="RecoTargetMetrics_8cxx_source.html#l00016">RecoTargetMetrics.cxx:16</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 6 2015 14:46:14 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 6 2015 16:06:48 for Vertex Reconstruction by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
